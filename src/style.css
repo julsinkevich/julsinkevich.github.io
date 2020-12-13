@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+    margin: 0 auto;
+    width: 595px;
+    padding: 48px 48px;
+    background: #ffffff;
+    height: 842px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 335px;
+    height: 710px;
+}
+
+.top__line{
+    margin: 0 auto;
+    width: 595px;
+    height: 4px;
+    left: 0px;
+    top: 0px;
+    background: #101214;
+}
+
+.title__profession{
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 18px;
+    line-height: 28px;
+    color: #3a3b3b;    
+}
+.title__fullname{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #101214;
+}
+.label{
+    width: 217px;
+    height: 60px;
+    padding: 1px 5px;
+    border: 1px solid #1C1C1C;
+    box-sizing: border-box;
+}
+.margin-indent{
+    margin-bottom: 16px;
+}
+.margin-ind{
+    margin-bottom: -26px;
+}
+.experience{
+    width: 335px;
+    height: 630px;
+    top: 140px;
+    left: 48px;
+}
+
+.xp{
+    padding-top: 32px;
+    left: 0px;
+    top: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 18px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #73808D;
+}
+
+.position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+    color: #101214;
+}
+.company{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+    color: #101214;
+}
+.period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 18px;
+    color: #73808d;
+}
+.tipe{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #101214;
+    padding-bottom: 20px;
+}
+.right{
+    width: 180px;
+    height: 710px;
+}
+.avatar{
+    width: 72px;
+    height: 72px;
+    left: 407px;
+    top: 36px;
+    background: url(1H_7AxP0.jpg);
+    filter: drop-shadow(0px 2px 4px rgba(16, 18, 20, 0.08));
+    border-radius: 50%;
+}
+
+.information{
+    padding-top: 16px;
+    position: absolute;
+    height: 558px;
+    width: 180px;
+    padding-bottom: 144px;
+    padding-right: 48px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+
+    color: #73808D;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
