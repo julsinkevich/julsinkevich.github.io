@@ -1,0 +1,44 @@
+body{
+    background:  #000000; 
+}
+.content{
+    background: #305bcf;
+}
+.top__line{
+    background: #aa0000;
+}
+.title__profession{
+    color: #ffffff;    
+}
+.title__fullname{
+    color: #000000;
+}
+.xp{
+    color: #ffffff;
+}
+.position{
+    color:  #000000;
+}
+.company{
+    color:  #000000;
+}
+.period{
+    color: #ffffff;
+}
+.tipe{
+    color:  #000000;
+}
+.information{
+    color: #ffffff;
+}
+.theme-button
+{
+    color: #ffffff;
+    /*background: #305bcf;*/
+    border: 2px solid #ffffff;
+}
+.theme-button:hover
+{
+    background: #305bcf;
+}
+

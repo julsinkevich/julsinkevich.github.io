@@ -51,7 +51,7 @@ body{
     width: 217px;
     height: 60px;
     padding: 1px 5px;
-    border: 1px solid #1C1C1C;
+    border: 2px solid #1C1C1C;
     box-sizing: border-box;
 }
 .margin-indent{
@@ -142,10 +142,27 @@ body{
 
     color: #73808D;
 }
+.munch{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.theme-button
+{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.link{
+    color: #830202;
+}
 li {
-    list-style-type: none; /* Убираем маркеры */
+    list-style-type: none;
 }
 ul {
-    margin-left: 0; /* Отступ слева в браузере IE и Opera */
-    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin-left: 0;
+    padding-left: 0;
 }
