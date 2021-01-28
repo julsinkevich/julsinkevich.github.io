@@ -12,18 +12,20 @@ function ChangeTheme()
     var theme = "";
 
     console.log(currTheme)
-    if(currTheme == lightTheme)
+   
+    if(currTheme.endsWith(lightTheme))
     {
-   	 currTheme = darkTheme;
-   	 theme = "style_dark";
+
+        theme = "style_dark.css";
+    
     }
-    if (currTheme==darkTheme) 
+    else
     {    
-   	 currTheme = lightTheme;
-   	 theme = "style_light";
+         theme = "style_light.css";
+  
     }
 
-    link.setAttribute("href", currTheme);
-   
+    link.setAttribute("href", theme);
+  
     //Save(theme);
 }
