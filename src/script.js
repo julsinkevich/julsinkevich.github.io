@@ -11,9 +11,10 @@ function ChangeTheme()
     var currTheme = link.getAttribute("href");
     var theme = "";
 
+    console.log(currTheme)
     if(currTheme == lightTheme)
     {
-   	 currTheme = darkTheme;1
+   	 currTheme = darkTheme;
    	 theme = "style_dark";
     }
     else 
