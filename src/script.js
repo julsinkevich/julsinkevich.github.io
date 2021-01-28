@@ -13,10 +13,10 @@ function ChangeTheme()
 
     if(currTheme == lightTheme)
     {
-   	 currTheme = darkTheme;
+   	 currTheme = darkTheme;1
    	 theme = "style_dark";
     }
-    else
+    else 
     {    
    	 currTheme = lightTheme;
    	 theme = "style_light";
