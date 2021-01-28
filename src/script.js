@@ -5,8 +5,8 @@ btn.addEventListener("click", function () { ChangeTheme(); });
 
 function ChangeTheme()
 {
-    let lightTheme = "style_light.css";
-    let darkTheme = "style_dark.css";
+    let lightTheme = "src/style_light.css";
+    let darkTheme = "src/style_dark.css";
 
     var currTheme = link.getAttribute("href");
     var theme = "";
@@ -15,14 +15,11 @@ function ChangeTheme()
    
     if(currTheme.endsWith(lightTheme))
     {
-
-        theme = "style_dark.css";
-    
+        theme = "src/style_dark.css";
     }
     else
     {    
-         theme = "style_light.css";
-  
+         theme = "src/style_light.css";
     }
 
     link.setAttribute("href", theme);
