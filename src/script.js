@@ -24,5 +24,4 @@ function ChangeTheme()
 
     link.setAttribute("href", theme);
   
-    //Save(theme);
 }
